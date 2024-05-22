@@ -11,9 +11,9 @@ import gleam/string
 /// > palindrome.is_it("racecar") # True
 /// ```
 pub fn is_it(text: String) -> Bool {
-	let result = case text {
-		"" -> False
-		_ -> text == string.reverse(text)
-	}
-	result
+  let result = case text {
+    "" -> False
+    _ -> text == string.reverse(text)
+  }
+  result
 }

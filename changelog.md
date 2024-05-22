@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Convert tabs to spaces; Gleam formatter uses spaces.
+
+### Removed
+
+- .editorconfig file; Gleam formatter uses spaces.
+
 ## [0.1.0] - 2021-07-01
 
 ### Added

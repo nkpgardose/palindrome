@@ -12,9 +12,9 @@ gleam add palindrome
 import palindrome
 
 pub fn main() {
-	let result = "racecar"
-	let is_result_palindrome = palindrome.is_it("racecar")
-	io.debug(is_result_palindrome) // True
+  let result = "racecar"
+  let is_result_palindrome = palindrome.is_it("racecar")
+  io.debug(is_result_palindrome) // True
 }
 ```
 
