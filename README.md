@@ -10,7 +10,9 @@ gleam add palindrome
 import palindrome
 
 pub fn main() {
-  // TODO: An example of the project in use
+	let result = "racecar"
+	let is_result_palindrome = palindrome.is_it("racecar")
+	io.debug(is_result_palindrome) // True
 }
 ```
 
@@ -19,7 +21,6 @@ Further documentation can be found at <https://hexdocs.pm/palindrome>.
 ## Development
 
 ```sh
-gleam run   # Run the project
 gleam test  # Run the tests
 gleam shell # Run an Erlang shell
 ```
