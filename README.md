@@ -3,6 +3,8 @@
 [![Package Version](https://img.shields.io/hexpm/v/palindrome)](https://hex.pm/packages/palindrome)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/palindrome/)
 
+> A simple Gleam module to check if a string is a palindrome.
+
 ```sh
 gleam add palindrome
 ```
