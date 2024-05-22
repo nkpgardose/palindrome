@@ -1,5 +1,19 @@
 name = "palindrome"
-version = "1.0.0"
+
+# The version of your project (required)
+version = "0.1.0"
+
+# A short description of your project (optional)
+# This will be displayed on the package page if the project is published to
+# the Hex package repository.
+description = "A simple Gleam project that checks if a string is a palindrome."
+
+# The licences which this project uses, in SPDX format (optional)
+licenses = ["Apache-2.0"]
+
+# The source code repository location (optional)
+# This will be used in generated documentation and displayed on Hex.
+repository = { type = "github", user = "nkpgardose", repo = "palindrome" }
 
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
