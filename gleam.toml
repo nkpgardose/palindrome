@@ -1,7 +1,7 @@
 name = "palindrome"
 
 # The version of your project (required)
-version = "0.1.1"
+version = "0.2.0"
 
 # A short description of your project (optional)
 # This will be displayed on the package page if the project is published to
